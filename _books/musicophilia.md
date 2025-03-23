@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Musicophilia: Tales of Music and the Brain
+title: Musicophilia
 author: Oliver Sacks
 olid: OL25098858M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780676979794 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
