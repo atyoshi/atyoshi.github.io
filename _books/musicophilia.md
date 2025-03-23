@@ -5,7 +5,7 @@ author: Oliver Sacks
 olid: OL25098858M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780676979794 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: psychology amnesia amusia musicophilia brain medical neurology psychiatry neuropsychology music
-buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592](https://www.amazon.com/Musicophilia-Tales-Music-Oliver-Sacks/dp/1400040817/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=
+buy_link: https://www.amazon.com/Musicophilia-Tales-Music-Oliver-Sacks/dp/1400040817/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=
 started: 2024-08-23
 finished: 2024-09-07
 released: 2007
