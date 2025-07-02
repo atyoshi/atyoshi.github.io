@@ -45,7 +45,7 @@ spotify_id: takeshi2053 # your spotify id
 x_username: elyoshi915 # your X handle
 youtube_id: atyoshi # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-# custom_social: # can be any name here other than the ones already defined above
-  # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  # title: Custom Social
-  # url: https://www.alberteinstein.com/
+custom_social: # can be any name here other than the ones already defined above
+  logo: https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/substack-guy6qbae0ljujje81x17z.png/substack-vqr21ymrh8qc5uspndxk9.png?_a=DATAdtAAZAA0 # can be png, svg, jpg
+  title: Substack
+  url: substack.com/@atyoshi
