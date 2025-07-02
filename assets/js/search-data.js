@@ -100,6 +100,13 @@ ninja.data = [{
           window.open("https://youtube.com/@atyoshi", "_blank");
         },
       },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("substack.com/@atyoshi", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
