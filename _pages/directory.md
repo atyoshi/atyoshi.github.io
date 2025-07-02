@@ -22,7 +22,7 @@ nav_order: 7
 
 #### Orchestra
 - <a href="https://www.elpasoballettheatre.com/">El Paso Ballet Theatre</a>
-- West Texas Symphony
+- <a href="https://www.wtxs.org/">West Texas Symphony</a>
 
 
 
