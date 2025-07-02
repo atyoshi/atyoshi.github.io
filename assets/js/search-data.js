@@ -86,6 +86,13 @@ ninja.data = [{
           window.open("https://instagram.com/get.yoshi.together", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/albert-yoshimoto-2957b0282/", "_blank");
+        },
+      },{
         id: 'social-spotify',
         title: 'Spotify',
         section: 'Socials',
