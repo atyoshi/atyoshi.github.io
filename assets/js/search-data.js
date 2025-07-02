@@ -44,7 +44,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/directory";
           },
-        },{id: "books-musicophilia",
+        },{id: "books-gödel-escher-bach",
+          title: 'Gödel, Escher, Bach',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/geb/";
+            },},{id: "books-musicophilia",
           title: 'Musicophilia',
           description: "",
           section: "Books",handler: () => {
