@@ -13,7 +13,7 @@ children:
   - title: divider
   - title: blog
     permalink: /blog/
-  - title: divider
-  - title: books
-  - permalink: /books/
+  # - title: divider
+  # - title: books
+  # - permalink: /books/
 ---
