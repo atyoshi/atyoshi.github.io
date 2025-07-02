@@ -111,7 +111,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("substack.com/@atyoshi", "_blank");
+          window.open("https://substack.com/@atyoshi", "_blank");
         },
       },{
       id: 'light-theme',
