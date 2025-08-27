@@ -51,7 +51,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/directory";
           },
-        },{id: "books-gödel-escher-bach",
+        },{id: "books-astrophysics-for-people-in-a-hurry",
+          title: 'Astrophysics for People in a Hurry',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/afpiah/";
+            },},{id: "books-gödel-escher-bach",
           title: 'Gödel, Escher, Bach',
           description: "",
           section: "Books",handler: () => {
