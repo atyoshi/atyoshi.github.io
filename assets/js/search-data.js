@@ -37,7 +37,28 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "books-astrophysics-for-people-in-a-hurry",
+        },{id: "dropdown-blog",
+              title: "Blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "dropdown-bookshelf",
+              title: "Bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-el-paso-directory",
+              title: "El Paso directory",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "books-astrophysics-for-people-in-a-hurry",
           title: 'Astrophysics for People in a Hurry',
           description: "",
           section: "Books",handler: () => {
