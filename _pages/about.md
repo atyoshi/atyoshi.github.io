@@ -30,6 +30,11 @@ nav: false
   <div><strong>CyberRIG</strong><span>Research assistant / member</span></div>
 </section>
 
+<section class="connect-strip" aria-labelledby="connect-title">
+  <div><p class="eyebrow">Elsewhere</p><h2 id="connect-title">Follow the whole person.</h2><p>Research is one part of my life. Find my music, writing, photos, and updates across the web.</p></div>
+  <div class="social-links" aria-label="Albert Yoshimoto on social platforms">{% include social.liquid %}</div>
+</section>
+
 <section class="section-block" aria-labelledby="featured-research">
   <div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="featured-research">Research built to be tested</h2></div><a href="{{ '/projects/' | relative_url }}">All research <span aria-hidden="true">→</span></a></div>
   <div class="research-grid">
@@ -42,4 +47,9 @@ nav: false
 <section class="music-callout" aria-labelledby="beyond-lab">
   <div><p class="eyebrow">Beyond the lab</p><h2 id="beyond-lab">Practice, performance, and teaching</h2><p>My training as a violinist shapes how I approach research: with close listening, disciplined iteration, and care for the whole system.</p></div>
   <a class="button button-copper" href="{{ '/music/' | relative_url }}">Explore music</a>
+</section>
+
+<section class="personal-archive" aria-labelledby="personal-archive-title">
+  <div><p class="eyebrow">Personal archive</p><h2 id="personal-archive-title">Books, notes, and local resources</h2></div>
+  <div class="archive-links"><a href="{{ '/books/' | relative_url }}"><strong>Bookshelf</strong><span>What I’m reading and returning to</span></a><a href="{{ '/blog/' | relative_url }}"><strong>Blog</strong><span>A home for future essays and research notes</span></a><a href="{{ '/directory/' | relative_url }}"><strong>El Paso directory</strong><span>Music and community resources</span></a></div>
 </section>

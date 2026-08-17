@@ -1,19 +1,14 @@
 ---
 layout: page
-title: submenus
-nav: false
-nav_order: 8
+title: More
+nav: true
+nav_order: 6
 dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
-  - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
+  - title: Blog
     permalink: /blog/
-  # - title: divider
-  # - title: books
-  # - permalink: /books/
+  - title: Bookshelf
+    permalink: /books/
+  - title: El Paso directory
+    permalink: /directory/
 ---
