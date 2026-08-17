@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 <div class="about-lead">
-  <img src="{{ '/assets/img/yoshi.jpg' | relative_url }}" alt="Albert Yoshimoto holding a violin" class="about-portrait">
+  <img src="{{ '/assets/img/yoshi.jpg' | relative_url }}" alt="Albert Yoshimoto holding a violin" class="about-portrait" loading="eager">
   <div><p class="eyebrow">Musician · Researcher · Systems thinker</p><p class="large-copy">My path into AI research began in the practice room. Classical training taught me to break difficult problems into observable parts, test an interpretation, listen closely, and iterate with discipline.</p><p>Today I bring that same method to autonomous systems and cybersecurity: define what success means, build environments that expose failure modes, and make the evidence reproducible.</p></div>
 </div>
 

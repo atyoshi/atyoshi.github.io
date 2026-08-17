@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<div class="music-intro"><img src="{{ '/assets/img/yoshi.jpg' | relative_url }}" alt="Albert Yoshimoto with his violin" class="music-portrait"><div><p class="eyebrow">A supporting practice</p><p class="large-copy">Music remains an essential part of how I work and connect with others. I earned a B.M. in Instrumental Performance from New Mexico State University in 2023 and continue to perform and teach in El Paso.</p></div></div>
+<div class="music-intro"><img src="{{ '/assets/img/yoshi.jpg' | relative_url }}" alt="Albert Yoshimoto with his violin" class="music-portrait" loading="eager"><div><p class="eyebrow">A supporting practice</p><p class="large-copy">Music remains an essential part of how I work and connect with others. I earned a B.M. in Instrumental Performance from New Mexico State University in 2023 and continue to perform and teach in El Paso.</p></div></div>
 
 <section class="section-block"><h2>Performance</h2><p>My violin training centered on the patient work of technique, interpretation, and ensemble listening—habits that continue to inform my research practice.</p><div class="video-wrapper"><iframe src="https://www.youtube.com/embed/Jkspcn_ai10?si=SfhYKWsbGpxmdM4p" title="Albert Yoshimoto violin performance" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></section>
 

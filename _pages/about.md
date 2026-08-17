@@ -7,12 +7,19 @@ nav: false
 ---
 
 <section class="research-hero" aria-labelledby="hero-title">
-  <p class="eyebrow">Albert Yoshimoto · Emerging AI Researcher</p>
-  <h1 id="hero-title">Emerging AI researcher building and evaluating autonomous systems for cybersecurity.</h1>
-  <p class="hero-lede">I am an M.S. student in Artificial Intelligence at UTEP working on autonomous-agent evaluation, cyber defense, retrieval-augmented generation, and reproducible simulation.</p>
-  <div class="button-row">
-    <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Explore research</a>
-    <a class="button button-secondary" href="{{ '/assets/pdf/albert-yoshimoto-resume.pdf' | relative_url }}" aria-label="Download Albert Yoshimoto's résumé as a PDF">Download résumé</a>
+  <div class="hero-copy">
+    <p class="eyebrow">Emerging AI Researcher · El Paso, Texas</p>
+    <h1 id="hero-title">Building trustworthy autonomous systems for cybersecurity.</h1>
+    <p class="hero-lede">I’m Albert Yoshimoto, a UTEP researcher focused on agent evaluation, cyber defense, RAG, and reproducible simulation.</p>
+    <div class="button-row">
+      <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Explore research <span aria-hidden="true">→</span></a>
+      <a class="button button-secondary" href="{{ '/assets/pdf/albert-yoshimoto-resume.pdf' | relative_url }}" aria-label="Download Albert Yoshimoto's résumé as a PDF">Download résumé</a>
+    </div>
+  </div>
+  <div class="hero-visual" aria-label="Portrait of Albert Yoshimoto">
+    <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    <img src="{{ '/assets/img/yoshi.jpg' | relative_url }}" alt="Albert Yoshimoto holding a violin" loading="eager">
+    <div class="hero-badge"><span>Current focus</span><strong>Agent evaluation × cyber defense</strong></div>
   </div>
 </section>
 

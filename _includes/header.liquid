@@ -20,9 +20,10 @@
             {{- site.title -}}
           {% endif %}
         </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
+      {% else %}
+        <a class="navbar-brand title" href="{{ '/' | relative_url }}" aria-label="Albert Yoshimoto home">
+          <span class="brand-mark" aria-hidden="true">AY</span><span class="brand-name">Albert Yoshimoto</span>
+        </a>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
