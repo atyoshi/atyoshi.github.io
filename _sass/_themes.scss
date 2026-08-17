@@ -5,19 +5,28 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #A9B7C6;  // A more neutral, grayish-blue  // Light Steel Blue, soft grayish-blue
+  --global-bg-color: #f7f9fc;
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #0055A4;  // Slightly lighter dark blue
-  --global-hover-color: #0055A4;
+  --global-text-color: #13233a;
+  --global-text-color-light: #53647a;
+  --global-theme-color: #145cc5;
+  --global-hover-color: #0b4397;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  --global-divider-color: #d9e3f0;
+  --global-card-bg-color: #ffffff;
+  --surface-elevated: #ffffff;
+  --surface-soft: #edf4fc;
+  --navy: #0b1f3a;
+  --cobalt: #145cc5;
+  --powder: #cfe2f7;
+  --muted: #53647a;
+  --border: #d9e3f0;
+  --shadow: 0 14px 40px rgba(21, 56, 99, 0.1);
+  --music-accent: #a4552a;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{red($black-color)},
@@ -77,19 +86,28 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #081625;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #e8f1fb;
+  --global-text-color-light: #aebed0;
+  --global-theme-color: #70b5ff;
+  --global-hover-color: #a9d3ff;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-divider-color: #263d58;
+  --global-card-bg-color: #10243b;
+  --surface-elevated: #10243b;
+  --surface-soft: #132d49;
+  --navy: #eef6ff;
+  --cobalt: #70b5ff;
+  --powder: #274966;
+  --muted: #aebed0;
+  --border: #263d58;
+  --shadow: 0 18px 46px rgba(0, 0, 0, 0.28);
+  --music-accent: #e3a276;
   --global-back-to-top-bg-color: rgba(
     #{red($white-color)},
     #{green($white-color)},

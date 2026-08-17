@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /directory
+permalink: /directory/
 title: directory
 description: Resources.
-nav: true
+nav: false
 nav_order: 7
 ---
 #### Chamber Music
@@ -23,7 +23,5 @@ nav_order: 7
 #### Orchestra
 - <a href="https://www.elpasoballettheatre.com/">El Paso Ballet Theatre</a>
 - <a href="https://www.wtxs.org/">West Texas Symphony</a>
-
-
 
 

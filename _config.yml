@@ -7,15 +7,14 @@
   middle_name: 
   last_name: Yoshimoto
   contact_note: >
-    The best way to reach me is by email.
+    Open to research conversations and collaboration.
   description: > # the ">" symbol means to ignore newlines until "footer_text:"
-    The official site for Albert Yoshimoto. Based on [*folio](https://github.com/bogoli/-folio) design.
+    Albert Yoshimoto is an emerging AI researcher at UTEP working on autonomous-agent evaluation, cybersecurity, RAG, and reproducible simulation.
   footer_text: >
-    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+    Emerging AI researcher in autonomous systems and cybersecurity.
+  keywords: artificial intelligence, autonomous agents, agent evaluation, cybersecurity, RAG, reproducible simulation, UTEP
   lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-  icon: 🎻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+  icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
   
   url: https://atyoshi.github.io # the base hostname & protocol for your site
   baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -48,7 +47,7 @@
   # -----------------------------------------------------------------------------
   
   navbar_fixed: true
-  footer_fixed: true
+  footer_fixed: false
   search_enabled: true
   socials_in_search: true
   bib_search: true
@@ -63,9 +62,9 @@
   # -----------------------------------------------------------------------------
   # Display links to the page with a preview object on social media.
   # see https://schema.org/docs/faq.html for more information
-  serve_og_meta: false # Include Open Graph meta tags in the HTML head
-  serve_schema_org: false # Include Schema.org in the HTML head
-  og_image: # The site-wide (default for all links) Open Graph preview image
+  serve_og_meta: true # Include Open Graph meta tags in the HTML head
+  serve_schema_org: true # Include Schema.org in the HTML head
+  og_image: yoshi.jpg # The site-wide (default for all links) Open Graph preview image
   
   # -----------------------------------------------------------------------------
   # Analytics and search engine verification
@@ -191,6 +190,8 @@
     - README.md
     - readme_preview/
     - vendor
+    - _posts/
+    - _news/
   keep_files:
     - CNAME
     - .nojekyll
@@ -253,7 +254,7 @@
         tags: "/blog/:type/:name/"
         categories: "/blog/:type/:name/"
     books:
-      enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+      enabled: [year, tags, categories]
   
   display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
   display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -263,7 +264,7 @@
   # -----------------------------------------------------------------------------
   
   scholar:
-    last_name: [Einstein]
+    last_name: [Yoshimoto]
     first_name: [Albert, A.]
   
     style: apa
@@ -386,7 +387,7 @@
   enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
   enable_darkmode: true # enables switching between light/dark modes
   enable_navbar_social: false # enables displaying social links in the navbar on the about page
-  enable_project_categories: true # enables categorization of projects into multiple categories
+  enable_project_categories: false # enables categorization of projects into multiple categories
   enable_medium_zoom: true # enables image zoom feature (as on medium.com)
   enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
   enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
