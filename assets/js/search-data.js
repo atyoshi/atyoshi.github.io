@@ -3,53 +3,39 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-research",
+    title: "Research",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-bookshelf",
-          title: "bookshelf",
-          description: "",
+  },{id: "nav-about",
+          title: "About",
+          description: "A musician’s path into autonomous-agent evaluation and cybersecurity research.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/about/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
+        },{id: "nav-music",
+          title: "Music",
+          description: "Performance, teaching, and the El Paso music community.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/music/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+        },{id: "nav-résumé",
+          title: "Résumé",
+          description: "Research experience, education, selected projects, and technical skills.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Violin Lessons.",
+        },{id: "nav-contact",
+          title: "Contact",
+          description: "Get in touch about AI research, cybersecurity, or collaboration.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching";
-          },
-        },{id: "nav-directory",
-          title: "directory",
-          description: "Resources.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/directory";
+            window.location.href = "/contact/";
           },
         },{id: "books-astrophysics-for-people-in-a-hurry",
           title: 'Astrophysics for People in a Hurry',
@@ -66,10 +52,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/musicophilia/";
-            },},{id: "news-website-created",
-          title: 'Website created!',
-          description: "",
-          section: "News",},{
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -84,6 +67,13 @@ ninja.data = [{
           window.open("https://facebook.com/albert.yoshimoto.7", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/atyoshi", "_blank");
+        },
+      },{
         id: 'social-instagram',
         title: 'Instagram',
         section: 'Socials',
@@ -95,7 +85,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/albert-yoshimoto-2957b0282/", "_blank");
+          window.open("https://www.linkedin.com/in/albert-yoshimoto", "_blank");
         },
       },{
         id: 'social-spotify',
