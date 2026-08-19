@@ -1,11 +1,13 @@
 ---
 layout: page
 permalink: /directory/
-title: directory
-description: Resources.
+title: El Paso Music Directory
+description: Local music organizations, instruction, and student resources.
 nav: false
 nav_order: 7
 ---
+Local music organizations, instruction, and student resources in the El Paso area.
+
 #### Chamber Music
 - <a href="https://www.gigsalad.com/four_bridges_strings_el_paso">Four Bridges Strings</a>
 - <a href="https://www.gigsalad.com/desert_strings_quartet_el_paso1">Desert Strings Quartet</a>
@@ -23,5 +25,4 @@ nav_order: 7
 #### Orchestra
 - <a href="https://www.elpasoballettheatre.com/">El Paso Ballet Theatre</a>
 - <a href="https://www.wtxs.org/">West Texas Symphony</a>
-
 

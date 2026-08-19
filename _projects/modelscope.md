@@ -6,7 +6,6 @@ status: In development
 collaborators:
   - Dr. Jaime C. Acosta
   - Army Research Laboratory (ARL)
-  - Training and Doctrine Analysis Center (TDAC)
 methods:
   - Agent benchmarking
   - Objective validation

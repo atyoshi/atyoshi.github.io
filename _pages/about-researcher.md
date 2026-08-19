@@ -2,14 +2,14 @@
 layout: page
 title: About
 permalink: /about/
-description: A musician’s path into autonomous-agent evaluation and cybersecurity research.
+description: Background, education, research interests, and technical skills.
 nav: true
 nav_order: 2
 ---
 
 <div class="about-lead">
   <img src="{{ '/assets/img/yoshi.jpg' | relative_url }}" alt="Albert Yoshimoto holding a violin" class="about-portrait" loading="eager">
-  <div><p class="eyebrow">Musician · Researcher · Systems thinker</p><p class="large-copy">My path into AI research began in the practice room. Classical training taught me to break difficult problems into observable parts, test an interpretation, listen closely, and iterate with discipline.</p><p>Today I bring that same method to autonomous systems and cybersecurity: define what success means, build environments that expose failure modes, and make the evidence reproducible.</p></div>
+  <div><p class="eyebrow">Background</p><p class="large-copy">I’m a graduate student in Artificial Intelligence at UTEP. My current work covers autonomous-agent evaluation, cyber defense, and reproducible simulation.</p><p>I previously earned a B.M. in Instrumental Performance from New Mexico State University and continue to perform and teach violin in El Paso.</p></div>
 </div>
 
 <section class="section-block"><h2>Current work</h2><p>I am pursuing an M.S. in Artificial Intelligence at the University of Texas at El Paso with a 4.0 GPA. As a 2026 Army HBCU-MI SPARK Research Fellow and a member of UTEP’s Cybersecurity Rapid Innovation Group, I work on evaluation systems, applied defenses for autonomous AI, cyber exercises, and research prototypes.</p></section>

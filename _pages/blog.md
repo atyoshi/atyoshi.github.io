@@ -2,14 +2,14 @@
 layout: page
 permalink: /blog/
 title: Blog
-description: Notes on AI, cybersecurity, music, and the work of learning in public.
+description: Research notes, project updates, and occasional writing on music.
 nav: false
 ---
 
 <section class="coming-soon-panel">
-  <p class="eyebrow">Writing archive</p>
-  <h2>Essays are coming.</h2>
-  <p>I haven’t published here yet, but I’m keeping this space for research notes, technical reflections, music, and ideas that deserve more room than a social post.</p>
-  <p>In the meantime, you can find shorter updates and follow my work through the links below.</p>
+  <p class="eyebrow">Blog</p>
+  <h2>No posts yet</h2>
+  <p>This page will include research notes, project updates, and occasional posts about music.</p>
+  <p>For current updates, use the links below.</p>
   <div class="social-links" aria-label="Albert Yoshimoto on social platforms">{% include social.liquid %}</div>
 </section>
