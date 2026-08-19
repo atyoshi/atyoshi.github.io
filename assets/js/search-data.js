@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-about",
           title: "About",
-          description: "A musician’s path into autonomous-agent evaluation and cybersecurity research.",
+          description: "Background, education, research interests, and technical skills.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/about/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-contact",
           title: "Contact",
-          description: "Get in touch about AI research, cybersecurity, or collaboration.",
+          description: "Contact me about research, cybersecurity, and related opportunities.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/contact/";
