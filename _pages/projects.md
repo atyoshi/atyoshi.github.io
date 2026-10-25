@@ -32,3 +32,18 @@ nav_order: 1
   <h3>Approach</h3><p>I modeled edge capacity, congestion, and variable movement speed, then compared routing behavior across realistic constraints. The project connected algorithmic correctness with system-level outcomes rather than treating shortest paths in isolation.</p>
   <p class="link-note"><strong>Source status:</strong> No public repository is available for this course project.</p>
 </article>
+
+<article class="case-study" id="blue-cheese">
+  <div class="case-study-head"><div><p class="eyebrow">CyberRIG project</p><h2>Blue Cheese</h2><p class="case-subtitle">Lightweight, modular cyber defense</p></div><span class="status-pill">In development</span></div>
+  <dl class="project-facts"><div><dt>Role</dt><dd>Developer and workflow designer</dd></div><div><dt>Technologies</dt><dd>Python, Suricata, Linux, Docker</dd></div></dl>
+  <h3>Problem and approach</h3><p>Blue Cheese explores a lightweight alternative to a full security monitoring stack, with structured alerts and modular analysis agents.</p>
+  <h3>Implemented</h3><p>Suricata JSON alert ingestion and normalization into structured records for downstream analysis.</p>
+  <h3>In development</h3><p>A live ingestion loop and a multi-agent workflow spanning orchestration, triage, correlation, investigation, and reporting. The workflow is designed; end-to-end autonomous defense and performance improvements have not yet been demonstrated.</p>
+</article>
+
+<article class="case-study" id="llm-uncertainty">
+  <div class="case-study-head"><div><p class="eyebrow">Machine Learning research project</p><h2>LLM Uncertainty Signals for Cybersecurity Analysis</h2><p class="case-subtitle">Predicting when an LLM is likely to be wrong</p></div><span class="status-pill">Ongoing research</span></div>
+  <dl class="project-facts"><div><dt>Signals</dt><dd>Stated confidence, token entropy, top-token probability</dd></div><div><dt>Models</dt><dd>Logistic regression and shallow decision trees</dd></div><div><dt>Evaluation plan</dt><dd>AUROC, Brier score, calibration curves, feature ablation</dd></div></dl>
+  <h3>Research question</h3><p>Can confidence and uncertainty signals help predict the correctness of LLM cybersecurity judgments, including overconfident errors?</p>
+  <h3>Approach and status</h3><p>I am investigating signals from LLM outputs on cybersecurity scenarios with ground-truth vulnerable and non-vulnerable labels. The evaluation design compares signals individually and together using simple classifiers, discrimination metrics, and calibration. Results and performance claims are not yet available.</p>
+</article>

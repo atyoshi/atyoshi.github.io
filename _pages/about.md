@@ -10,8 +10,8 @@ nav: false
   <div class="hero-copy">
     <p class="eyebrow">AI research · Cybersecurity · El Paso</p>
     <h1 id="hero-title">Autonomous-agent evaluation and cybersecurity research.</h1>
-    <p class="hero-lede">I’m Albert Yoshimoto, an M.S. student and researcher at UTEP. I work on agent evaluation, cyber defense, retrieval-augmented systems, and simulation.</p>
-    <p class="hero-focus"><span>Current focus</span><strong>Agent evaluation and cyber defense</strong></p>
+    <p class="hero-lede">I’m Albert Yoshimoto, an M.S. in Artificial Intelligence student at UTEP (expected May 2027). I work on agent evaluation, cyber defense, retrieval-augmented systems, and simulation.</p>
+    <p class="hero-focus"><span>Current focus</span><strong>Cyber defense and LLM uncertainty</strong></p>
     <div class="button-row">
       <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Explore research <span aria-hidden="true">→</span></a>
       <a class="button button-secondary" href="{{ '/assets/pdf/albert-yoshimoto-resume.pdf' | relative_url }}" aria-label="Download Albert Yoshimoto's résumé as a PDF">Download résumé</a>
@@ -23,7 +23,7 @@ nav: false
 </section>
 
 <section class="credential-strip" aria-label="Selected credentials">
-  <div><strong>UTEP</strong><span>M.S. in Artificial Intelligence</span></div>
+  <div><strong>UTEP</strong><span>M.S. in Artificial Intelligence · May 2027</span></div>
   <div><strong>4.0</strong><span>Graduate GPA</span></div>
   <div><strong>2026 Fellow</strong><span>Army HBCU-MI SPARK</span></div>
   <div><strong>CyberRIG</strong><span>Research assistant / member</span></div>
@@ -40,6 +40,8 @@ nav: false
     <article class="research-card featured"><p class="status">Flagship · In development</p><h3>ModelScope</h3><p>A benchmarking platform for autonomous agents with modular execution, objective validation, and auditable telemetry in simulated environments.</p><a href="{{ '/projects/#modelscope' | relative_url }}">Read case study <span aria-hidden="true">→</span></a></article>
     <article class="research-card"><p class="status">Research prototype</p><h3>SpecGuard</h3><p>Hybrid vulnerability discovery combining static analysis, LLM reasoning, and retrieval over real-world vulnerability specifications.</p><a href="{{ '/projects/#specguard' | relative_url }}">Read case study <span aria-hidden="true">→</span></a></article>
     <article class="research-card"><p class="status">Course project</p><h3>Evacuation Optimization</h3><p>A congestion-aware, multi-agent simulator comparing graph-routing strategies under realistic movement constraints.</p><a href="{{ '/projects/#evacuation' | relative_url }}">Read case study <span aria-hidden="true">→</span></a></article>
+    <article class="research-card"><p class="status">Prototype · In development</p><h3>Blue Cheese</h3><p>A lightweight cyber defense prototype with Suricata alert ingestion and normalization, and a planned multi-agent workflow for triage, correlation, investigation, and reporting.</p><a href="{{ '/projects/#blue-cheese' | relative_url }}">Read project details <span aria-hidden="true">→</span></a></article>
+    <article class="research-card"><p class="status">Ongoing ML research</p><h3>LLM Uncertainty Signals</h3><p>Investigating whether stated confidence and token-level uncertainty predict correctness in cybersecurity analysis, with calibration and feature-ablation evaluation.</p><a href="{{ '/projects/#llm-uncertainty' | relative_url }}">Read research plan <span aria-hidden="true">→</span></a></article>
   </div>
 </section>
 

@@ -96,6 +96,15 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Verify portfolio pages and local links
+        run: python3 _scripts/verify_portfolio.py
+      - name: Save preview build
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-preview
+          path: _site
+          retention-days: 7
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4

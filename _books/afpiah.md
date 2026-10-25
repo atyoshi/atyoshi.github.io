@@ -12,4 +12,5 @@ released: 2017
 stars: 4
 status: Finished
 ---
+
 Fun read. Still complicated if you didn't pay attention in physics class.

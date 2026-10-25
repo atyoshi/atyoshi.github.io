@@ -14,7 +14,7 @@ nav_order: 2
 
 <section class="section-block"><h2>Current work</h2><p>I am pursuing an M.S. in Artificial Intelligence at the University of Texas at El Paso with a 4.0 GPA. As a 2026 Army HBCU-MI SPARK Research Fellow and a member of UTEP’s Cybersecurity Rapid Innovation Group, I work on evaluation systems, applied defenses for autonomous AI, cyber exercises, and research prototypes.</p></section>
 
-<section class="section-block"><h2>Education</h2><div class="education-grid"><article><p class="eyebrow">Expected 2027</p><h3>M.S. in Artificial Intelligence</h3><p>University of Texas at El Paso<br>GPA: 4.0</p></article><article><p class="eyebrow">2023</p><h3>B.M. in Instrumental Performance</h3><p>New Mexico State University<br>GPA: 3.85</p></article></div></section>
+<section class="section-block"><h2>Education</h2><div class="education-grid"><article><p class="eyebrow">Expected May 2027</p><h3>M.S. in Artificial Intelligence</h3><p>University of Texas at El Paso<br>GPA: 4.0</p></article><article><p class="eyebrow">2023</p><h3>B.M. in Instrumental Performance</h3><p>New Mexico State University<br>GPA: 3.85</p></article></div></section>
 
 <section class="section-block"><h2>Research interests</h2><ul class="tag-list"><li>Autonomous-agent evaluation</li><li>Cyber defense</li><li>Retrieval-augmented generation</li><li>Vulnerability discovery</li><li>Reproducible simulation</li><li>AI assurance</li></ul></section>
 

@@ -1,15 +1,13 @@
 {
   "basics": {
     "name": "Albert Yoshimoto",
-    "label": "Computer Science Graduate Student",
+    "label": "M.S. in Artificial Intelligence Student",
     "image": "prof_pic.jpg",
     "email": "ayoshimoto@miners.utep.edu",
-    "phone": "",
+    "phone": "(915) 731-4379",
     "URL": "https://atyoshi.github.io",
-    "summary": "A highly motivated and results-oriented professional with experience in Computer Science, specializing Object-Oriented Programming and Computation Theory. Strong leadership and communication skills, with a focus on collaborative teamwork to achieve organizational goals. Seeking a challenging role where I can leverage my expertise to contribute significantly to team success.",
+    "summary": "UTEP graduate student researching autonomous-agent evaluation, cybersecurity, and LLM uncertainty. Violin performer and teacher.",
     "location": {
-      "address": "875 Silent View Pl",
-      "postalCode": "79928",
       "city": "El Paso",
       "countryCode": "US",
       "region": "Texas"
@@ -52,45 +50,56 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Army HBCU-MI SPARK",
+      "position": "Research Fellow",
+      "summary": "Summer 2026: CyberAI research and CTF infrastructure with ARL and TDAC; contributed to ModelScope."
+    },
+    {
+      "name": "Cybersecurity Rapid Innovation Group (CyberRIG), UTEP",
+      "position": "Research Assistant",
+      "summary": "2026\u2013present: Prototype AI-driven cybersecurity tools and contribute to security exercises and research workshops."
+    }
+  ],
   "volunteer": [],
   "education": [
     {
       "institution": "University of Texas at El Paso",
       "url": "https://www.utep.edu/cs/",
-      "area": "Computer Science",
-      "studyType": "Master's of Science in Computer Science",
-      "startDate": "2024-01-01",
-      "endDate": "Present"
+      "area": "Artificial Intelligence",
+      "studyType": "M.S. in Artificial Intelligence",
+      "endDate": "2027-05",
+      "score": "4.0",
+      "courses": ["Machine Learning", "Decision Making in AI", "Advanced Algorithms", "Computer Security", "Software Architecture"]
     },
     {
       "institution": "New Mexico State University",
       "url": "https://music.nmsu.edu/",
-      "area": "Music Performance",
-      "studyType": "Bachelor's",
+      "area": "Instrumental Performance",
+      "studyType": "B.M.",
       "startDate": "2019-08-01",
       "endDate": "2023-05-01",
-      "score": "Graduated with Honors, Conroy Scholar"
+      "score": "3.85"
     }
   ],
   "awards": [],
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "Google Cybersecurity Certificate",
+      "issuer": "Coursera",
+      "date": "2025"
+    }
+  ],
   "publications": [],
   "skills": [
     {
       "name": "Programming",
-      "keywords": [
-        "Java",
-        "Python",
-        "OOP"
-      ]
+      "keywords": ["Java", "Python", "OOP"]
     },
     {
       "name": "Music",
-      "keywords": [
-        "Violin",
-        "Composition"
-      ]
+      "keywords": ["Violin", "Composition"]
     }
   ],
   "languages": [
@@ -118,10 +127,7 @@
   "interests": [
     {
       "name": "Music",
-      "keywords": [
-        "Violin",
-        "Composition"
-      ]
+      "keywords": ["Violin", "Composition"]
     },
     {
       "name": "Philosophy",
@@ -137,5 +143,22 @@
     }
   ],
   "references": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "Blue Cheese",
+      "description": "Suricata JSON alert ingestion and normalization implemented; multi-agent workflow designed; live ingestion in development."
+    },
+    {
+      "name": "LLM Uncertainty Signals for Cybersecurity Analysis",
+      "description": "Ongoing investigation of stated confidence and token-level uncertainty; evaluation designed using AUROC, Brier score, calibration and ablation."
+    },
+    {
+      "name": "SpecGuard",
+      "description": "Static analysis, LLM reasoning, and RAG over 1,999 CVEs."
+    },
+    {
+      "name": "ModelScope",
+      "description": "Contributed to plugin-based autonomous-agent evaluation."
+    }
+  ]
 }
