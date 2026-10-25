@@ -1,54 +1,54 @@
 - title: General Information
   type: map
   contents:
-  - name: Full Name
-    value: Albert Yoshimoto
-  - name: Email
-    value: ayoshimoto@miners.utep.edu
-  - name: Phone
-    value: (915) 731-4379
+    - name: Full Name
+      value: Albert Yoshimoto
+    - name: Email
+      value: ayoshimoto@miners.utep.edu
+    - name: Phone
+      value: (915) 731-4379
 - title: Education
   type: time_table
   contents:
-  - title: M.S. in Artificial Intelligence
-    institution: University of Texas at El Paso
-    year: Expected May 2027
-    description:
-    - 'GPA: 4.0'
-  - title: B.M. in Instrumental Performance
-    institution: New Mexico State University
-    year: May 2023
-    description:
-    - 'GPA: 3.85'
+    - title: M.S. in Artificial Intelligence
+      institution: University of Texas at El Paso
+      year: Expected May 2027
+      description:
+        - "GPA: 4.0"
+    - title: B.M. in Instrumental Performance
+      institution: New Mexico State University
+      year: May 2023
+      description:
+        - "GPA: 3.85"
 - title: Research Experience
   type: time_table
   contents:
-  - title: Research Fellow
-    institution: Army HBCU-MI SPARK
-    year: Summer 2026
-    description:
-    - 'Summer 2026: CyberAI research and CTF infrastructure with ARL and TDAC; contributed
-      to ModelScope.'
-  - title: Research Assistant
-    institution: Cybersecurity Rapid Innovation Group (CyberRIG), UTEP
-    year: 2026–present
-    description:
-    - '2026–present: Prototype AI-driven cybersecurity tools and contribute to security
-      exercises and research workshops.'
+    - title: Research Fellow
+      institution: Army HBCU-MI SPARK
+      year: Summer 2026
+      description:
+        - "Summer 2026: CyberAI research and CTF infrastructure with ARL and TDAC; contributed
+          to ModelScope."
+    - title: Research Assistant
+      institution: Cybersecurity Rapid Innovation Group (CyberRIG), UTEP
+      year: 2026–present
+      description:
+        - "2026–present: Prototype AI-driven cybersecurity tools and contribute to security
+          exercises and research workshops."
 - title: Selected Projects
   type: time_table
   contents:
-  - title: Blue Cheese
-    description:
-    - Suricata JSON alert ingestion and normalization implemented; multi-agent workflow
-      designed; live ingestion in development.
-  - title: LLM Uncertainty Signals for Cybersecurity Analysis
-    description:
-    - Ongoing investigation of stated confidence and token-level uncertainty; evaluation
-      designed using AUROC, Brier score, calibration and ablation.
-  - title: SpecGuard
-    description:
-    - Static analysis, LLM reasoning, and RAG over 1,999 CVEs.
-  - title: ModelScope
-    description:
-    - Contributed to plugin-based autonomous-agent evaluation.
+    - title: Blue Cheese
+      description:
+        - Suricata JSON alert ingestion and normalization implemented; multi-agent workflow
+          designed; live ingestion in development.
+    - title: LLM Uncertainty Signals for Cybersecurity Analysis
+      description:
+        - Ongoing investigation of stated confidence and token-level uncertainty; evaluation
+          designed using AUROC, Brier score, calibration and ablation.
+    - title: SpecGuard
+      description:
+        - Static analysis, LLM reasoning, and RAG over 1,999 CVEs.
+    - title: ModelScope
+      description:
+        - Contributed to plugin-based autonomous-agent evaluation.

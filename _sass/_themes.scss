@@ -29,13 +29,8 @@
   --shadow-strong: 0 18px 42px rgba(27, 40, 55, 0.13);
   --music-accent: #9a542f;
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{red($black-color)},
-    #{green($black-color)},
-    #{blue($black-color)},
-    0.4
-  );
-  
+  --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
+
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
@@ -110,12 +105,7 @@ html[data-theme="dark"] {
   --shadow: 0 14px 34px rgba(0, 0, 0, 0.24);
   --shadow-strong: 0 20px 48px rgba(0, 0, 0, 0.34);
   --music-accent: #d79870;
-  --global-back-to-top-bg-color: rgba(
-    #{red($white-color)},
-    #{green($white-color)},
-    #{blue($white-color)},
-    0.5
-  );
+  --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};

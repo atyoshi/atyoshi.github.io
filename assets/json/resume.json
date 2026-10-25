@@ -71,13 +71,7 @@
       "studyType": "M.S. in Artificial Intelligence",
       "endDate": "2027-05",
       "score": "4.0",
-      "courses": [
-        "Machine Learning",
-        "Decision Making in AI",
-        "Advanced Algorithms",
-        "Computer Security",
-        "Software Architecture"
-      ]
+      "courses": ["Machine Learning", "Decision Making in AI", "Advanced Algorithms", "Computer Security", "Software Architecture"]
     },
     {
       "institution": "New Mexico State University",
@@ -101,18 +95,11 @@
   "skills": [
     {
       "name": "Programming",
-      "keywords": [
-        "Java",
-        "Python",
-        "OOP"
-      ]
+      "keywords": ["Java", "Python", "OOP"]
     },
     {
       "name": "Music",
-      "keywords": [
-        "Violin",
-        "Composition"
-      ]
+      "keywords": ["Violin", "Composition"]
     }
   ],
   "languages": [
@@ -140,10 +127,7 @@
   "interests": [
     {
       "name": "Music",
-      "keywords": [
-        "Violin",
-        "Composition"
-      ]
+      "keywords": ["Violin", "Composition"]
     },
     {
       "name": "Philosophy",

@@ -8,7 +8,7 @@ M.S. in Artificial Intelligence student at the University of Texas at El Paso, e
 
 - `_pages/about.md`: homepage and featured work
 - `_pages/projects.md`: ModelScope, SpecGuard, Blue Cheese, LLM uncertainty research, and evacuation simulation
-- `_pages/music.md`: music section
+- `_pages/teaching.md`: music section
 - `_pages/cv.md`, `_data/cv.yml`, `assets/json/resume.json`: résumé and structured data
 - `assets/pdf/albert-yoshimoto-resume.pdf`: current one-page downloadable résumé
 
